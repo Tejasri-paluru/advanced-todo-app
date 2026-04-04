@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Background animation */
+.bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, #00c6ff, #7f00ff);
+  animation: gradientMove 6s infinite alternate;
+  z-index: -2;
+}
+
+@keyframes gradientMove {
+  0% {
+    filter: hue-rotate(0deg);
+    transform: scale(1);
+  }
+  100% {
+    filter: hue-rotate(60deg);
+    transform: scale(1.2);
+  }
+}
+
+/* container */
+.auth-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card animation */
+.auth-card {
+  width: 360px;
+  padding: 30px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+  text-align: center;
+  color: white;
+  animation: fadeSlide 1s ease;
+}
+
+@keyframes fadeSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.auth-card h1 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.auth-card p {
+  font-size: 13px;
+  opacity: 0.85;
+  margin-bottom: 18px;
+}
+
+.auth-card input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin: 10px 0;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.auth-card input::placeholder {
+  color: rgba(255,255,255,0.7);
+}
+
+.auth-card input:focus {
+  transform: scale(1.03);
+  background: rgba(255,255,255,0.3);
+}
+
+.auth-card button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 12px;
+  background: #00c6ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.auth-card button:hover {
+  background: #009ed6;
+  transform: scale(1.05);
+}
+
+.switch-link {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.switch-link a {
+  color: #00c6ff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.switch-link a:hover {
+  text-decoration: underline;
+}

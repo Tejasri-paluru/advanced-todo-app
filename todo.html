@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced To-Do App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="particles" id="particles"></div>
+<div class="toast" id="toast"></div>
+
+  <div class="container">
+    <div class="top-header">
+      <div>
+        <h1>📝 Advanced To-Do</h1>
+        <p class="subtitle">Priority • Due Date • Dark Mode • LocalStorage</p>
+      </div>
+
+      <button id="themeToggle">🌙 Dark</button>
+      <button id="logoutBtn">🚪 Logout</button>
+    </div>
+
+    <!-- Input Section -->
+    <div class="input-section">
+      <input type="text" id="taskInput" placeholder="Enter your task..." />
+
+      <select id="priorityInput">
+        <option value="High">🔥 High</option>
+        <option value="Medium" selected>⚡ Medium</option>
+        <option value="Low">🌿 Low</option>
+      </select>
+
+      <input type="date" id="dueDateInput" />
+
+      <button id="addBtn">Add</button>
+    </div>
+
+    <!-- Search -->
+    <div class="search-section">
+      <input type="text" id="searchInput" placeholder="Search tasks..." />
+    </div>
+
+    <!-- Filter Buttons -->
+    <div class="filter-section">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="pending">Pending</button>
+      <button class="filter-btn" data-filter="completed">Completed</button>
+    </div>
+
+    <!-- Sort Section -->
+<div class="sort-section">
+  <select id="sortSelect">
+    <option value="newest" selected>📌 Sort: Newest</option>
+    <option value="oldest">🕒 Sort: Oldest</option>
+    <option value="priority">🔥 Sort: Priority</option>
+    <option value="duedate">📅 Sort: Due Date</option>
+  </select>
+</div>
+
+<!-- Progress Bar -->
+<div class="progress-container">
+  <div class="progress-info">
+    <span id="progressText">0% Completed</span>
+    <span id="progressNumbers">0/0</span>
+  </div>
+
+  <div class="progress-bar">
+    <div class="progress-fill" id="progressFill"></div>
+  </div>
+</div>
+    <!-- Task List -->
+    <ul id="taskList"></ul>
+
+    <!-- Footer Actions -->
+    <div class="footer-actions">
+      <p id="taskCount">0 tasks</p>
+      <button id="clearAllBtn">Clear All</button>
+    </div>
+
+  </div>
+
+  <script src="script.js">
+   // Redirect if not logged in
+  if (!localStorage.getItem("currentUser")) {
+    window.location.href = "index.html";
+  }
+  
+</script>
+</body>
+</html>
