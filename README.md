@@ -51,6 +51,8 @@ cd advanced-todo-app
 3️⃣ Open in browser
 
 Simply open index.html in your browser.
+
+
 🌍 Deployment
 
 This project is deployed using Netlify.
