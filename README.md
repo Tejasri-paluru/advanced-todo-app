@@ -53,12 +53,16 @@ cd advanced-todo-app
 Simply open index.html in your browser.
 
 
-🌍 Deployment
+##🌍 Deployment
 
 This project is deployed using Netlify.
 
-1.Steps to Deploy:
+1.Steps to Deploy
+
 2.Push code to GitHub
+
 3.Connect GitHub repository to Netlify
+
 4.Click Deploy
+
 5.Get a live link instantly 🎉
