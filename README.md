@@ -31,12 +31,18 @@ This project helps users manage tasks efficiently with a clean UI, smooth intera
 ---
 ## 📂 Folder Structure
 advanced-todo-app/
+
 │
 ├── index.html
+
 ├── signup.html
+
 ├── todo.html
+
 ├── style.css
+
 ├── script.js
+
 └── README.md
 
 
@@ -54,7 +60,7 @@ cd advanced-todo-app
 Simply open index.html in your browser.
 
 
-##🌍 Deployment
+## 🌍 Deployment
 
 This project is deployed using Netlify.
 
