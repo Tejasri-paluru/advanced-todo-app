@@ -4,6 +4,7 @@ A modern and interactive **Todo List Web Application** built using **HTML, CSS, 
 This project helps users manage tasks efficiently with a clean UI, smooth interactions, and multi-page navigation.
 
 🚀 **Live Demo:** https://tejasri-advncd-todo-app.netlify.app/
+
 📌 **GitHub Repo:** https://github.com/Tejasri-paluru/advanced-todo-app  
 
 ---
@@ -66,3 +67,12 @@ This project is deployed using Netlify.
 4.Click Deploy
 
 5.Get a live link instantly 🎉
+
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login Page](screenshots/login.png)
+
+### 📝 Todo Dashboard
+![Todo Dashboard](screenshots/dashboard.png)
+
