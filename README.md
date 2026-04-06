@@ -55,6 +55,7 @@ advanced-todo-app/
 
 2️⃣ Go inside the folder
 cd advanced-todo-app
+
 3️⃣ Open in browser
 
 Simply open index.html in your browser.
