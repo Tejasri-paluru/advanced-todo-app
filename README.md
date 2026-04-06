@@ -82,3 +82,32 @@ This project is deployed using Netlify.
 ### 📝 Todo Dashboard
 ![Todo Dashboard](screenshots/dashboard.png)
 
+---
+
+## 🚀 Future Enhancements
+
+✨ Cloud database support (Firebase / MongoDB)  
+✨ User authentication system  
+✨ Task priority levels (High / Medium / Low)  
+✨ Dark mode improvements  
+✨ Drag & drop task reordering  
+✨ Reminder notifications  
+
+---
+## 👩‍💻 Author
+
+**Tejasri Paluru**  
+🔗 GitHub: https://github.com/Tejasri-paluru  
+🌐 Live App:  https://tejasri-advncd-todo-app.netlify.app/ 
+
+---
+
+## ⭐ Support
+
+If you like this project, please give it a ⭐ on GitHub!  
+Your support motivates me to build more projects 🚀
+
+---
+## 📄 License
+
+This project is open-source and available under the **MIT License**.
